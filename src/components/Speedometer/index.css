@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.speedometer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1f5f8;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  color: #07080c;
+}
+
+.speedometer-image {
+  width: 50%;
+  max-width: 300px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #0b69ff;
+}
+
+p {
+  font-size: 16px;
+  color: #94a3b8;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.accelerate-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+}
+
+.brake-button {
+  background-color: #cbd5e1;
+  color: #07080c;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra Small (Size < 576px) and Small (Size >= 576px) */
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+/* Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
